@@ -6,3 +6,4 @@ export { default as useCounter } from "./hooks/useCounter";
 export { default as useToggle } from "./hooks/useToggle";
 export { default as useCopyToClipboard } from "./hooks/useCopyToClipboard";
 export { default as usePreferredDark } from "./hooks/usePreferredDark";
+export { default as useLockScroll } from "./hooks/useLockScroll";
