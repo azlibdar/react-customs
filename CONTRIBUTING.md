@@ -28,7 +28,7 @@ There are 5 ways you can contribute:
 ### 1. Developing a New Hook
 
 - First, open an issue proposing the new hook.
-- Use the `feature` branch for your work.
+- Create the `feature` branch for your work.
 - **Update the version in package.json:**
   - Increment the middle number. For example, change `1.0.0` to `1.1.0`.
   - Alternatively, you can use `npm version minor`.
@@ -70,7 +70,7 @@ This is a minor change because existing code using useCustomHook will not break.
 #### Process
 
 - Open an issue related to this change.
-- Use the `feature` branch for non-breaking changes.
+- Create the `feature` branch for non-breaking changes.
 - Update examples if necessary, following the same process as for new hooks.
 - Update documentation accordingly.
 - **For versioning:**
@@ -108,7 +108,7 @@ This is a major change because existing code using useCustomHook will break and 
 #### Process
 
 - Open an issue related to this change.
-- Use the `major` branch for breaking changes.
+- Create the `major` branch for breaking changes.
 - Update examples, following the same process as for new hooks.
 - Update documentation accordingly.
 - **For versioning:**
@@ -145,7 +145,7 @@ const [value, setValue] = useCustomHook("key", "defaultValue");
 
 #### Process
 
-- Use the `patch` branch for non-breaking bug fixes.
+- Create the `patch` branch for non-breaking bug fixes.
 - If documentation needs to be altered, please do so.
 - For versioning:
   - Use `npm version patch`, or
@@ -155,7 +155,7 @@ const [value, setValue] = useCustomHook("key", "defaultValue");
 
 ### 5. Fixing Typos
 
-- Use the `typo-fix` branch for typo fixes.
+- Create the `typo-fix` branch for typo fixes.
 - If documentation needs to be corrected, make the necessary changes.
 - No version change is needed for typo fixes.
 
@@ -163,14 +163,14 @@ const [value, setValue] = useCustomHook("key", "defaultValue");
 
 ## Branch Usage
 
-We have pre-created the following branches for you to use:
+Creating braches:
 
 - `feature` for adding new hooks and minor non-breaking changes
 - `major` for major breaking changes
 - `patch` for non-breaking changes or bug fixes
 - `typo-fix` for typo corrections
 
-Please use these existing branches for your contributions. Do not create new branches with different names.
+Please create only these branches for your contributions.
 
 <br>
 
@@ -192,20 +192,20 @@ cd react-customs
 nom install
 ```
 
-**4) Check out the appropriate branch based on your contribution type (major, feature, patch, or typo-fix).**
+**4) Create and checkout to appropriate branch based on your contribution type (major, feature, patch, or typo-fix).**
 
 ```shell
 # For a major change
-git checkout major
+git checkout -b major
 
 # For a new feature or minor change
-git checkout feature
+git checkout -b feature
 
 # For a patch change
-git checkout patch
+git checkout -b patch
 
 # For fixing typos
-git checkout typo-fix
+git checkout -b typo-fix
 ```
 
 **5) Make your changes.**
