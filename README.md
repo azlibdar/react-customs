@@ -32,6 +32,7 @@ For detailed documentation on each hook, click on the links below.
 - [useFavicon](docs/useFavicon.md) Easily update the favicon of your webpage.
 - [useDefault](docs/useDefault.md) Ensure a state variable always has a default value.
 - [usePrevious](docs/usePrevious.md) Track the previous and current state values.
+- [useCounter](docs/useCounter.md) Manage a counter value with step, minimum, and maximum values.
 
 <br>
 
