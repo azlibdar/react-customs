@@ -8,3 +8,4 @@ export { default as useCopyToClipboard } from "./hooks/useCopyToClipboard";
 export { default as usePreferredDark } from "./hooks/usePreferredDark";
 export { default as useLockScroll } from "./hooks/useLockScroll";
 export { default as useWindowSize } from "./hooks/useWindowSize";
+export { default as useQueue } from "./hooks/useQueue";

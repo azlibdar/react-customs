@@ -38,6 +38,7 @@ For detailed documentation on each hook, click on the links below.
 - [usePreferredDark](docs/usePreferredDark.md) Detect if the user prefers dark mode.
 - [useLockScroll](docs/useLockScroll.md) Allows you to lock and unlock scrolling on the page.
 - [useWindowSize](docs/useWindowSize.md) Track the dimensions of the browser window in real-time.
+- [useQueue](docs/useQueue.md) Managing a queue data structure with a maximum size limit.
 
 <br>
 
