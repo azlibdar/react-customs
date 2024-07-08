@@ -29,6 +29,7 @@ npm i react-customs
 For detailed documentation on each hook, click on the links below.
 
 - [useDocumentTitle](docs/useDocumentTitle.md) Dynamically update the title of a webpage
+- [useFavicon](docs/useFavicon.md) Easily update the favicon of your webpage
 
 <br>
 
