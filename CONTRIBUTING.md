@@ -37,7 +37,7 @@ There are 5 ways you can contribute:
 - **For providing usage examples:**
   - Use external links for demos, preferably CodeSandbox or similar platforms where both code and preview are visible.
   - Note: When developing new hooks, they won't be available on npm immediately. Use a local version of the hook for your demo initially.
-  - After your pull request is merged and a new version is published, update your demo to use the npm version and submit another pull request with the updated demo link.
+  - After your pull request is merged and a new version is published, update your demo to use the npm version.
 
 <br>
 
