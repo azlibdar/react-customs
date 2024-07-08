@@ -1,4 +1,4 @@
-## useFavicon
+# useFavicon
 
 Easily update the favicon of your webpage with `useFavicon`.
 

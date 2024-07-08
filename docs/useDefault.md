@@ -1,4 +1,4 @@
-## useDefault
+# useDefault
 
 Ensure a state variable always has a default value with `useDefault`.
 
