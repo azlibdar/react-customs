@@ -35,6 +35,7 @@ For detailed documentation on each hook, click on the links below.
 - [useCounter](docs/useCounter.md) Manage a counter value with step, minimum, and maximum values.
 - [useToggle](docs/useToggle.md) Toggle a boolean state.
 - [useCopyToClipboard](docs/useCopyToClipboard.md) Simplify copying text to the clipboard, handling cross-browser compatibility.
+- [usePreferredDark](docs/usePreferredDark.md) Detect if the user prefers dark mode.
 
 <br>
 
