@@ -8,7 +8,6 @@ Compatible with React `v18.0.0+`
 
 ![npm version](https://img.shields.io/npm/v/react-customs.svg)
 ![license](https://img.shields.io/npm/l/react-customs)
-![downloads](https://img.shields.io/npm/dm/react-customs)
 
 <br>
 
@@ -40,6 +39,7 @@ For detailed documentation on each hook, click on the links below.
 - [useWindowSize](docs/useWindowSize.md) Track the dimensions of the browser window in real-time.
 - [useQueue](docs/useQueue.md) Managing a queue data structure with a maximum size limit.
 - [useStack](docs/useStack.md) Managing a stack data structure with a maximum size limit.
+- [useTabAwayCount](docs/useTabAwayCount.md) Tracks the number of times a user navigates away from a tab.
 
 <br>
 
