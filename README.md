@@ -51,7 +51,7 @@ import { useDocumentTitle } from "react-customs";
 function App() {
   useDocumentTitle("Hello world!");
 
-  return <h1>Happy hacking!</h1>;
+  return <h1>No so happy hacking!</h1>;
 }
 
 export default App;
