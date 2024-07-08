@@ -27,6 +27,6 @@ The `useFavicon` hook is a simple way to manage the favicon of your webpage. It 
 | `initailUrl` | `string` | (Optional) The initial favicon URL to set.         |
 | `url`        | `string` | The URL of the favicon to be set for the document. |
 
-### Example
+### Example (Demo)
 
 <a href="https://stackblitz.com/edit/vitejs-vite-pqwcbb-yxlf9s?file=src%2FApp.jsx" target="_blank">useFavicon (Example)</a>
