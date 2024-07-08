@@ -1,0 +1,38 @@
+{
+  "name": "react-customs",
+  "version": "1.0.0",
+  "description": "A collection of essential, server-safe custom React hooks for modern web development.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublishOnly": "npm run build",
+    "postinstall": "node -e \"console.log('\\n\\x1b[36m%s\\x1b[0m', 'Click to see documentation: https://github.com/azlibdar/react-customs#readme\\nHappy hacking!')\""
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "custom-hooks",
+    "open-source",
+    "react-customs"
+  ],
+  "author": "Azlan Ibrahim",
+  "license": "MIT",
+  "homepage": "https://github.com/azlibdar/react-customs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azlibdar/react-customs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azlibdar/react-customs/issues"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7"
+  }
+}
