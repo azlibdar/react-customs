@@ -1,13 +1,17 @@
-# reactCustoms
+<div align="center">
+  <img width="1920" alt="react-customs-banner" src="https://github.com/azlibdar/react-customs/assets/121456353/c5d7f20f-0482-463b-a39b-62a47c6c5206">
 
-A collection of essential, server-safe custom React hooks for modern web development.
+  # React Customs
+  A collection of essential, server-safe custom React hooks for modern web development.
 
-Compatible with React `v18.0.0+`
+  Compatible with React `v18.0.0+`
 
-<br>
+  <br>
 
-![npm version](https://img.shields.io/npm/v/react-customs.svg)
-![license](https://img.shields.io/npm/l/react-customs)
+  ![npm version](https://img.shields.io/npm/v/react-customs.svg)
+  ![license](https://img.shields.io/npm/l/react-customs)
+  ![downloads](https://img.shields.io/npm/dm/react-customs)
+</div>
 
 <br>
 
