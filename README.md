@@ -1,16 +1,18 @@
 <div align="center">
   <img width="1920" alt="react-customs-banner" src="https://github.com/azlibdar/react-customs/assets/121456353/c5d7f20f-0482-463b-a39b-62a47c6c5206">
 
-  # React Customs
-  A collection of essential, server-safe custom React hooks for modern web development.
+# React Customs
 
-  Compatible with React `v18.0.0+`
+A collection of essential, server-safe custom React hooks for modern web development.
+
+Compatible with React `v18.0.0+`
 
   <br>
 
-  ![npm version](https://img.shields.io/npm/v/react-customs.svg)
-  ![license](https://img.shields.io/npm/l/react-customs)
-  ![downloads](https://img.shields.io/npm/dm/react-customs)
+![npm version](https://img.shields.io/npm/v/react-customs.svg)
+![license](https://img.shields.io/npm/l/react-customs)
+![downloads](https://img.shields.io/npm/dm/react-customs)
+
 </div>
 
 <br>
@@ -44,6 +46,7 @@ For detailed documentation on each hook, click on the links below.
 - [useQueue](docs/useQueue.md) Managing a queue data structure with a maximum size limit.
 - [useStack](docs/useStack.md) Managing a stack data structure with a maximum size limit.
 - [useTabAwayCount](docs/useTabAwayCount.md) Tracks the number of times a user navigates away from a tab.
+- [useTodo](docs/useTodo.md) Managing a to-do list with common operations.
 
 <br>
 
