@@ -1,6 +1,6 @@
 {
   "name": "react-customs",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A collection of essential, server-safe custom React hooks for modern web development.",
   "main": "dist/index.js",
   "scripts": {
