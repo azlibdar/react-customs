@@ -46,6 +46,7 @@ For detailed documentation on each hook, click on the links below.
 - [useQueue](docs/useQueue.md) Managing a queue data structure with a maximum size limit.
 - [useStack](docs/useStack.md) Managing a stack data structure with a maximum size limit.
 - [useTabAwayCount](docs/useTabAwayCount.md) Tracks the number of times a user navigates away from a tab.
+- [useTheme](docs/useTheme.md) Manage and toggle between light and dark themes with useTheme.
 
 <br>
 
