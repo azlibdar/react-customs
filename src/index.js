@@ -12,3 +12,4 @@ export { default as useQueue } from "./hooks/useQueue";
 export { default as useStack } from "./hooks/useStack";
 export { default as useTabAwayCount } from "./hooks/useTabAwayCount";
 export { default as useTheme } from "./hooks/useTheme";
+export { default as useDebounce } from "./hooks/useDebounce";
