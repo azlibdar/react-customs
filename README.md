@@ -3,11 +3,11 @@
 
 # React Customs
 
-A collection of essential, server-safe custom React hooks for modern web development.
+A collection of essential React hooks built with JavaScript.
 
 Compatible with React `v18.0.0+`
 
-  <br>
+<br>
 
 ![npm version](https://img.shields.io/npm/v/react-customs.svg)
 ![license](https://img.shields.io/npm/l/react-customs)
@@ -43,7 +43,6 @@ For documentation, please visit the [GitBook URL](https://azlibdar.gitbook.io/re
 | usePrevious      | Track the previous and current state values. | [Example](https://use-previous.pages.dev/)       |
 
 - [useCounter](docs/useCounter.md) Manage a counter value with step, minimum, and maximum values.
-- [useToggle](docs/useToggle.md) Toggle a boolean state.
 - [useCopyToClipboard](docs/useCopyToClipboard.md) Simplify copying text to the clipboard, handling cross-browser compatibility.
 - [usePreferredDark](docs/usePreferredDark.md) Detect if the user prefers dark mode.
 - [useLockScroll](docs/useLockScroll.md) Allows you to lock and unlock scrolling on the page.
