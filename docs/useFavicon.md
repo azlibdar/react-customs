@@ -2,31 +2,33 @@
 
 Easily update the favicon of your webpage with `useFavicon`.
 
-<br>
-
 ### Usage
 
 ```jsx
 import { useFavicon } from "react-customs";
 
-const setFavicon = useFavicon("../public/vite.svg");
+const setFavicon = useFavicon(); // or
+const setFavicon = useFavicon(initialURL);
 
-const handleSetFavicon = () => {
-  setFavicon("https://upload.wikimedia.org/wikip... .png");
-};
+setFavicon("https://upload.wikimedia.org/wikip... .png");
 ```
 
 ### Description
 
-The `useFavicon` hook is a simple way to manage the favicon of your webpage. It initializes the favicon with an optional URL and provides a function to change the favicon dynamically. This is useful for applications that need to update the favicon based on user actions or state changes.
+The `useFavicon` hook provides a simple way to set and update the favicon of your application dynamically. It can be initialized with an initial favicon URL and allows you to change the favicon at any point by using the returned setFavicon function.
 
 ### Parameters
 
-| Name         | Type     | Description                                        |
-| ------------ | -------- | -------------------------------------------------- |
-| `initailUrl` | `string` | (Optional) The initial favicon URL to set.         |
-| `url`        | `string` | The URL of the favicon to be set for the document. |
+| Name         | Type     | Description                                 |
+| ------------ | -------- | ------------------------------------------- |
+| `initailUrl` | `string` | (Optional) The initial URL for the favicon. |
+
+### Parameters
+
+| Name         | Type       | Description                        |
+| ------------ | ---------- | ---------------------------------- |
+| `setFavicon` | `function` | Function to update the favicon URL |
 
 ### Example (Demo)
 
-<a href="https://stackblitz.com/edit/vitejs-vite-pqwcbb-yxlf9s?file=src%2FApp.jsx" target="_blank">useFavicon (Example)</a>
+<a href="https://use-favicon.pages.dev/" target="_blank">useFavicon (Example)</a>

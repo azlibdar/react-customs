@@ -38,9 +38,8 @@ For documentation, please visit the [GitBook URL](https://azlibdar.gitbook.io/re
 | Hook             | Description                                | Example                                          |
 | ---------------- | ------------------------------------------ | ------------------------------------------------ |
 | useDocumentTitle | Dynamically update the title of a webpage. | [Example](https://use-document-title.pages.dev/) |
+| useFavicon       | Easily update the favicon of your webpage. | [Example](https://use-favicon.pages.dev/)        |
 
-- **useDocumentTitle:** Dynamically update the title of a webpage.
-- [useFavicon](docs/useFavicon.md) Easily update the favicon of your webpage.
 - [useDefault](docs/useDefault.md) Ensure a state variable always has a default value.
 - [usePrevious](docs/usePrevious.md) Track the previous and current state values.
 - [useCounter](docs/useCounter.md) Manage a counter value with step, minimum, and maximum values.
