@@ -7,20 +7,14 @@ Track the previous and current state values with `usePrevious`.
 ### Usage
 
 ```jsx
-import { usePrevious } from "react-customs";
+import usePrevious from "react-customs";
 
-const [prevCount, count, setCount] = usePrevious(0);
+const [previousValue, currentValue, setValue] = usePrevious(initialValue);
 ```
 
 ### Description
 
-The `usePrevious` hook returns `[prev, curr, setCurr]` where:
-
-- `prev` is the previous value of the state variable.
-- `curr` is the current value of the state variable.
-- `setCurr` is the function to update the current value of the state variable.
-
-This hook is particularly useful for tracking changes in a variable over renders and enabling actions or updates based on previous state.
+The `usePrevious` hook allows you to track the previous value of a state variable. This can be useful for comparisons or performing actions based on changes in state.
 
 ### Parameters
 
@@ -28,6 +22,14 @@ This hook is particularly useful for tracking changes in a variable over renders
 | -------------- | ----- | --------------------------------------- |
 | `initialValue` | `any` | The initial value to set for the state. |
 
+### Return value
+
+| Name            | Type       | Description                                    |
+| --------------- | ---------- | ---------------------------------------------- |
+| `previousValue` | `any`      | The previous value of the state variable.      |
+| `currentValue`  | `any`      | The current value of the state variable.       |
+| `setValue`      | `function` | Function to update the current state variable. |
+
 ### Example (Demo)
 
-<a href="https://stackblitz.com/edit/vitejs-vite-rvmjjp?file=src%2FApp.jsx" target="_blank">usePrevious (Example)</a>
+<a href="https://use-previous.pages.dev/" target="_blank">usePrevious (Example)</a>

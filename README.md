@@ -35,13 +35,13 @@ For documentation, please visit the [GitBook URL](https://azlibdar.gitbook.io/re
 
 <br>
 
-| Hook             | Description                                | Example                                          |
-| ---------------- | ------------------------------------------ | ------------------------------------------------ |
-| useDocumentTitle | Dynamically update the title of a webpage. | [Example](https://use-document-title.pages.dev/) |
-| useFavicon       | Easily update the favicon of your webpage. | [Example](https://use-favicon.pages.dev/)        |
-| useDefault       | Ensure a state always has a default value. | [Example](https://use-default.pages.dev/)        |
+| Hook             | Description                                  | Example                                          |
+| ---------------- | -------------------------------------------- | ------------------------------------------------ |
+| useDocumentTitle | Dynamically update the title of a webpage.   | [Example](https://use-document-title.pages.dev/) |
+| useFavicon       | Easily update the favicon of your webpage.   | [Example](https://use-favicon.pages.dev/)        |
+| useDefault       | Ensure a state always has a default value.   | [Example](https://use-default.pages.dev/)        |
+| usePrevious      | Track the previous and current state values. | [Example](https://use-previous.pages.dev/)       |
 
-- [usePrevious](docs/usePrevious.md) Track the previous and current state values.
 - [useCounter](docs/useCounter.md) Manage a counter value with step, minimum, and maximum values.
 - [useToggle](docs/useToggle.md) Toggle a boolean state.
 - [useCopyToClipboard](docs/useCopyToClipboard.md) Simplify copying text to the clipboard, handling cross-browser compatibility.
