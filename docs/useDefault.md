@@ -1,17 +1,13 @@
 # useDefault
 
-Ensure a state variable always has a default value with `useDefault`.
-
-<br>
+Ensure a state always has a default value with `useDefault`.
 
 ### Usage
 
 ```jsx
-import { useDefault } from "react-customs";
+import useDefault from "react-customs";
 
-const initialValue = "Select any";
-const defaultValue = "My Default Value";
-const [name, setName] = useDefault(initialValue, defaultValue);
+const [value, setValue] = useDefault(initialValue, defaultValue);
 ```
 
 ### Description
@@ -25,6 +21,13 @@ The `useDefault` hook ensures that a state variable always has a default value i
 | `initialValue` | `any` | The initial value to be set for the state.                      |
 | `defaultValue` | `any` | The default value to be used if state is `undefined` or `null`. |
 
+### Return values
+
+| Name       | Type       | Description                                                                      |
+| ---------- | ---------- | -------------------------------------------------------------------------------- |
+| `value`    | `any`      | The current state value, or the default value if the state is undefined or null. |
+| `setValue` | `function` | Function to update the state.                                                    |
+
 ### Example (Demo)
 
-<a href="https://stackblitz.com/edit/vitejs-vite-haei2u?file=src%2FApp.jsx" target="_blank">useDefault (Example)</a>
+<a href="https://use-default.pages.dev/" target="_blank">useDefault (Example)</a>

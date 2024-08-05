@@ -23,7 +23,7 @@ The `useFavicon` hook provides a simple way to set and update the favicon of you
 | ------------ | -------- | ------------------------------------------- |
 | `initailUrl` | `string` | (Optional) The initial URL for the favicon. |
 
-### Parameters
+### Return value
 
 | Name         | Type       | Description                        |
 | ------------ | ---------- | ---------------------------------- |
