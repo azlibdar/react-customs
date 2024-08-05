@@ -2,8 +2,6 @@
 
 Dynamically update the title of a webpage with `useDocumentTitle`.
 
-<br>
-
 ### Usage
 
 ```jsx
@@ -24,4 +22,4 @@ The `useDocumentTitle` hook is useful for dynamically updating the title of a we
 
 ### Example (Demo)
 
-<a href="https://stackblitz.com/edit/vitejs-vite-pqwcbb?file=src%2FApp.jsx" target="_blank">useDocumentTitle (Example)</a>
+<a href="https://use-document-title.pages.dev/" target="_blank">useDocumentTitle (Example)</a>
