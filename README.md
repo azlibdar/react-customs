@@ -31,9 +31,15 @@ npm i react-customs
 
 ## Hooks and Documentation
 
-For detailed documentation on each hook, click on the links below.
+For documentation, please visit the [GitBook URL](https://azlibdar.gitbook.io/react-customs)
 
-- [useDocumentTitle](docs/useDocumentTitle.md) Dynamically update the title of a webpage.
+<br>
+
+| Hook             | Description                                | Example                                          |
+| ---------------- | ------------------------------------------ | ------------------------------------------------ |
+| useDocumentTitle | Dynamically update the title of a webpage. | [Example](https://use-document-title.pages.dev/) |
+
+- **useDocumentTitle:** Dynamically update the title of a webpage.
 - [useFavicon](docs/useFavicon.md) Easily update the favicon of your webpage.
 - [useDefault](docs/useDefault.md) Ensure a state variable always has a default value.
 - [usePrevious](docs/usePrevious.md) Track the previous and current state values.
@@ -48,6 +54,9 @@ For detailed documentation on each hook, click on the links below.
 - [useTabAwayCount](docs/useTabAwayCount.md) Tracks the number of times a user navigates away from a tab.
 - [useTheme](docs/useTheme.md) Manage and toggle between light and dark themes.
 - [useDebounce](docs/useDebounce.md) Delay updates to a value until a specified time period has elapsed.
+
+<!-- use this url to link documentaion to a hook (usehookname) all in lowercase -->
+<!-- https://azlibdar.gitbook.io/react-customs/usehook -->
 
 <br>
 
