@@ -35,14 +35,14 @@ For documentation, please visit the [GitBook URL](https://azlibdar.gitbook.io/re
 
 <br>
 
-| Hook             | Description                                  | Example                                          |
-| ---------------- | -------------------------------------------- | ------------------------------------------------ |
-| useDocumentTitle | Dynamically update the title of a webpage.   | [Example](https://use-document-title.pages.dev/) |
-| useFavicon       | Easily update the favicon of your webpage.   | [Example](https://use-favicon.pages.dev/)        |
-| useDefault       | Ensure a state always has a default value.   | [Example](https://use-default.pages.dev/)        |
-| usePrevious      | Track the previous and current state values. | [Example](https://use-previous.pages.dev/)       |
+| Hook             | Description                                            | Example                                          |
+| ---------------- | ------------------------------------------------------ | ------------------------------------------------ |
+| useDocumentTitle | Dynamically update the title of a webpage.             | [Example](https://use-document-title.pages.dev/) |
+| useFavicon       | Easily update the favicon of your webpage.             | [Example](https://use-favicon.pages.dev/)        |
+| useDefault       | Ensure a state always has a default value.             | [Example](https://use-default.pages.dev/)        |
+| usePrevious      | Track the previous and current state values.           | [Example](https://use-previous.pages.dev/)       |
+| useCounter       | Manage a counter value with step, min, and max values. | [Example](https://use-counter.pages.dev/)        |
 
-- [useCounter](docs/useCounter.md) Manage a counter value with step, minimum, and maximum values.
 - [useCopyToClipboard](docs/useCopyToClipboard.md) Simplify copying text to the clipboard, handling cross-browser compatibility.
 - [usePreferredDark](docs/usePreferredDark.md) Detect if the user prefers dark mode.
 - [useLockScroll](docs/useLockScroll.md) Allows you to lock and unlock scrolling on the page.
