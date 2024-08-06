@@ -46,8 +46,8 @@ For documentation, please visit the [GitBook URL](https://azlibdar.gitbook.io/re
 | useLockScroll      | Lock and unlock scrolling on the page.           | [Example](https://use-lock-scroll.pages.dev/)       |
 | useWindowSize      | Track the dimensions of the browser window.      | [Example](https://use-window-size.pages.dev/)       |
 | useQueue           | Managing a queue data structure with a max size. | [Example](https://use-queue.pages.dev/)             |
+| useStack           | Managing a stack data structure with a max size. | [Example](https://use-stack.pages.dev/)             |
 
-- [useStack](docs/useStack.md) Managing a stack data structure with a maximum size limit.
 - [useTabAwayCount](docs/useTabAwayCount.md) Tracks the number of times a user navigates away from a tab.
 - [useTheme](docs/useTheme.md) Manage and toggle between light and dark themes.
 - [useDebounce](docs/useDebounce.md) Delay updates to a value until a specified time period has elapsed.
