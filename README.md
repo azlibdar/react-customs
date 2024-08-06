@@ -44,8 +44,8 @@ For documentation, please visit the [GitBook URL](https://azlibdar.gitbook.io/re
 | useCounter         | Manage a counter with step, min, and max values. | [Example](https://use-counter.pages.dev/)           |
 | useCopyToClipboard | Simplify copying text to the clipboard.          | [Example](https://use-copy-to-clipboard.pages.dev/) |
 | useLockScroll      | Lock and unlock scrolling on the page.           | [Example](https://use-lock-scroll.pages.dev/)       |
+| useWindowSize      | Track the dimensions of the browser window.      | [Example](https://use-window-size.pages.dev/)       |
 
-- [useWindowSize](docs/useWindowSize.md) Track the dimensions of the browser window in real-time.
 - [useQueue](docs/useQueue.md) Managing a queue data structure with a maximum size limit.
 - [useStack](docs/useStack.md) Managing a stack data structure with a maximum size limit.
 - [useTabAwayCount](docs/useTabAwayCount.md) Tracks the number of times a user navigates away from a tab.
