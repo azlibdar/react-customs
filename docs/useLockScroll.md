@@ -9,20 +9,15 @@ A custom React hook that allows you to `lock` and `unlock` scrolling on the page
 ```jsx
 import useLockScroll from "react-customs";
 
-const [locked, setLockScroll] = useLockScroll(false);
+const setLock = useLockScroll();
 
-const handleLockScroll = () => {
-  setLockScroll(true); // lock it
-};
-
-const handleUnlockScroll = () => {
-  setLockScroll(false); // unlock it
-};
+setLock(true);
+setLock(false);
 ```
 
 ### Description
 
-The `useLockScroll` hook provides a simple way to control the scrolling behavior of the page. When the scroll is locked, the page becomes unscrollable, which can be useful for modals, sidebars, or any scenario where you want to prevent the user from scrolling the main content.
+The `useLockScroll` hook allows you to easily lock and unlock scrolling on the document body. This can be useful for modals, sidebars, or any component that requires the background to be unscrollable.
 
 ### Parameters
 
@@ -32,11 +27,10 @@ The `useLockScroll` hook provides a simple way to control the scrolling behavior
 
 ### Return value
 
-Returns an array containing:
-
-- `isLocked`: A boolean indicating whether the scroll is currently locked.
-- `setLockScroll`: A function to update the lock state.
+| Name      | Type       | Description                                         |
+| --------- | ---------- | --------------------------------------------------- |
+| `setLock` | `function` | Function to lock (true) or unlock (false) scrolling |
 
 ### Example (Demo)
 
-<a href="https://stackblitz.com/edit/vitejs-vite-pqwcbb-tchaur?file=src%2FApp.jsx" target="_blank">useLockScroll (Example)</a>
+<a href="https://use-lock-scroll.pages.dev/" target="_blank">useLockScroll (Example)</a>

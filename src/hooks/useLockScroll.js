@@ -17,7 +17,7 @@ const useLockScroll = (initialLocked = false) => {
     };
   }, [isLocked]);
 
-  const toggleLock = useCallback((value) => {
+  const setLock = useCallback((value) => {
     if (typeof value === "boolean") {
       setIsLocked(value);
     } else {
@@ -25,7 +25,7 @@ const useLockScroll = (initialLocked = false) => {
     }
   }, []);
 
-  return [isLocked, toggleLock];
+  return setLock;
 };
 
 export default useLockScroll;
