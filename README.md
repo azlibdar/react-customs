@@ -49,8 +49,7 @@ For documentation, please visit the [GitBook URL](https://azlibdar.gitbook.io/re
 | useStack           | Managing a stack data structure with a max size.  | [Example](https://use-stack.pages.dev/)             |
 | useTabAway         | Number of times a user navigates away from a tab. | [Example](https://use-tab-away.pages.dev/)          |
 | useTheme           | Manage and toggle between light and dark themes.  | [Example](https://use-theme.pages.dev/)             |
-
-- [useDebounce](docs/useDebounce.md) Delay updates to a value until a specified time period has elapsed.
+| useDebounce        | Delay updates to a value.                         | [Example](https://use-theme.pages.dev/)             |
 
 <!-- use this url to link documentaion to a hook (usehookname) all in lowercase -->
 <!-- https://azlibdar.gitbook.io/react-customs/usehook -->

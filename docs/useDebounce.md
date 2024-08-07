@@ -32,4 +32,4 @@ The `useDebounce` hook delays the update of a value until a specified time perio
 
 ### Example (Demo)
 
-<a href="https://stackblitz.com/edit/vitejs-vite-pqwcbb-apzwrt?file=src%2FApp.jsx" target="_blank">useDebounce (Example)</a>
+<a href="https://use-debounce.pages.dev/" target="_blank">useDebounce (Example)</a>
