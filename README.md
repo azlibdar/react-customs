@@ -37,19 +37,19 @@ For documentation, please visit the [GitBook URL](https://azlibdar.gitbook.io/re
 
 | Hook               | Description                                       | Example                                             |
 | ------------------ | ------------------------------------------------- | --------------------------------------------------- |
+| useCopyToClipboard | Simplify copying text to the clipboard.           | [Example](https://use-copy-to-clipboard.pages.dev/) |
+| useCounter         | Manage a counter with step, min, and max values.  | [Example](https://use-counter.pages.dev/)           |
+| useDebounce        | Delay updates to a value.                         | [Example](https://use-theme.pages.dev/)             |
+| useDefault         | Ensure a state always has a default value.        | [Example](https://use-default.pages.dev/)           |
 | useDocumentTitle   | Dynamically update the title of a webpage.        | [Example](https://use-document-title.pages.dev/)    |
 | useFavicon         | Easily update the favicon of your webpage.        | [Example](https://use-favicon.pages.dev/)           |
-| useDefault         | Ensure a state always has a default value.        | [Example](https://use-default.pages.dev/)           |
-| usePrevious        | Track the previous and current state values.      | [Example](https://use-previous.pages.dev/)          |
-| useCounter         | Manage a counter with step, min, and max values.  | [Example](https://use-counter.pages.dev/)           |
-| useCopyToClipboard | Simplify copying text to the clipboard.           | [Example](https://use-copy-to-clipboard.pages.dev/) |
 | useLockScroll      | Lock and unlock scrolling on the page.            | [Example](https://use-lock-scroll.pages.dev/)       |
-| useWindowSize      | Track the dimensions of the browser window.       | [Example](https://use-window-size.pages.dev/)       |
+| usePrevious        | Track the previous and current state values.      | [Example](https://use-previous.pages.dev/)          |
 | useQueue           | Managing a queue data structure with a max size.  | [Example](https://use-queue.pages.dev/)             |
 | useStack           | Managing a stack data structure with a max size.  | [Example](https://use-stack.pages.dev/)             |
 | useTabAway         | Number of times a user navigates away from a tab. | [Example](https://use-tab-away.pages.dev/)          |
 | useTheme           | Manage and toggle between light and dark themes.  | [Example](https://use-theme.pages.dev/)             |
-| useDebounce        | Delay updates to a value.                         | [Example](https://use-theme.pages.dev/)             |
+| useWindowSize      | Track the dimensions of the browser window.       | [Example](https://use-window-size.pages.dev/)       |
 
 <br>
 
