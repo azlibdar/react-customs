@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 
-const useTabAwayCount = () => {
+const useTabAway = () => {
   const [tabAwayCount, setTabAwayCount] = useState(0);
 
   const handleVisibilityChange = useCallback(() => {
@@ -20,4 +20,4 @@ const useTabAwayCount = () => {
   return tabAwayCount;
 };
 
-export default useTabAwayCount;
+export default useTabAway;
