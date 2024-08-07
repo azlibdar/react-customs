@@ -51,9 +51,6 @@ For documentation, please visit the [GitBook URL](https://azlibdar.gitbook.io/re
 | useTheme           | Manage and toggle between light and dark themes.  | [Example](https://use-theme.pages.dev/)             |
 | useDebounce        | Delay updates to a value.                         | [Example](https://use-theme.pages.dev/)             |
 
-<!-- use this url to link documentaion to a hook (usehookname) all in lowercase -->
-<!-- https://azlibdar.gitbook.io/react-customs/usehook -->
-
 <br>
 
 ## Quick Example
@@ -75,12 +72,6 @@ export default App;
 ## Contributing
 
 We welcome contributions! Please read our [Contribution Guide](CONTRIBUTING.md) before submitting any pull requests.
-
-<br>
-
-## Important Message
-
-Please [read](MESSAGE.md) our important message about the project's background and goals.
 
 <br>
 
