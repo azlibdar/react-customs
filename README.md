@@ -48,8 +48,8 @@ For documentation, please visit the [GitBook URL](https://azlibdar.gitbook.io/re
 | useQueue           | Managing a queue data structure with a max size.  | [Example](https://use-queue.pages.dev/)             |
 | useStack           | Managing a stack data structure with a max size.  | [Example](https://use-stack.pages.dev/)             |
 | useTabAway         | Number of times a user navigates away from a tab. | [Example](https://use-tab-away.pages.dev/)          |
+| useTheme           | Manage and toggle between light and dark themes.  | [Example](https://use-theme.pages.dev/)             |
 
-- [useTheme](docs/useTheme.md) Manage and toggle between light and dark themes.
 - [useDebounce](docs/useDebounce.md) Delay updates to a value until a specified time period has elapsed.
 
 <!-- use this url to link documentaion to a hook (usehookname) all in lowercase -->

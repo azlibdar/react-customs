@@ -11,8 +11,6 @@ import useTheme from "react-customs";
 
 const { theme, setTheme, toggleTheme } = useTheme();
 
-<h1>Current theme: {theme}</h1>;
-
 const handleToggleTheme = () => {
   toggleTheme(); // Toggles between light and dark themes
 };
@@ -22,18 +20,11 @@ const handleChangeTheme = (newTheme) => {
 };
 ```
 
-tailwind-config.js
-
-```javascript
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  darkMode: "class", //  add this line
-};
-```
-
 ### Description
 
-The `useTheme` hook manages the current theme of your application and provides functionality to toggle between light and dark modes. It reads the theme preference from localStorage or detects the user's system preference on initial load. The hook also allows programmatic theme changes and automatically applies the selected theme to the document. The selected theme is stored in the localStorage for persistence across page reloads.
+The `useTheme` hook manages the current theme of your application and provides functionality to toggle between light and dark modes. It reads the theme preference from localStorage or detects the user's system preference on initial load.
+
+The hook also allows programmatic theme changes and automatically applies the selected theme to the document. The selected theme is stored in the localStorage for persistence across page reloads.
 
 ### Return value
 
@@ -45,4 +36,4 @@ The `useTheme` hook manages the current theme of your application and provides f
 
 ### Example (Demo)
 
-<a href="https://stackblitz.com/edit/vitejs-vite-pqwcbb-qc184w?file=src%2FApp.jsx" target="_blank">useTheme (Example)</a>
+<a href="https://use-theme.pages.dev/" target="_blank">useTheme (Example)</a>

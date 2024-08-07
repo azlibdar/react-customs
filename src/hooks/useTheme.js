@@ -27,8 +27,8 @@ const useTheme = () => {
         root.classList.remove("dark");
       }
 
-      localStorage.setItem("theme", theme);
       root.setAttribute("data-theme", theme);
+      localStorage.setItem("theme", theme);
     };
 
     applyTheme(theme);
