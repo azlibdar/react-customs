@@ -11,3 +11,4 @@ export { default as useStack } from "./hooks/useStack";
 export { default as useTabAway } from "./hooks/useTabAway";
 export { default as useTheme } from "./hooks/useTheme";
 export { default as useDebounce } from "./hooks/useDebounce";
+export { default as useOnline } from "./hooks/useOnline";

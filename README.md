@@ -44,6 +44,7 @@ For documentation, please visit the [GitBook URL](https://azlibdar.gitbook.io/re
 | useDocumentTitle   | Dynamically update the title of a webpage.        | [Example](https://use-document-title.pages.dev/)    |
 | useFavicon         | Easily update the favicon of your webpage.        | [Example](https://use-favicon.pages.dev/)           |
 | useLockScroll      | Lock and unlock scrolling on the page.            | [Example](https://use-lock-scroll.pages.dev/)       |
+| useOnline          | Track the user's online/offline status.           | [Example](https://use-online.pages.dev/)            |
 | usePrevious        | Track the previous and current state values.      | [Example](https://use-previous.pages.dev/)          |
 | useQueue           | Managing a queue data structure with a max size.  | [Example](https://use-queue.pages.dev/)             |
 | useStack           | Managing a stack data structure with a max size.  | [Example](https://use-stack.pages.dev/)             |
