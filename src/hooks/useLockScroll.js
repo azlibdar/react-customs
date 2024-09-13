@@ -4,16 +4,29 @@ const useLockScroll = (initialLocked = false) => {
   const [isLocked, setIsLocked] = useState(initialLocked);
 
   useLayoutEffect(() => {
-    const originalStyle = window.getComputedStyle(document.body).overflow;
+    const originalStyle = window.getComputedStyle(document.body);
+    const originalOverflow = originalStyle.overflow;
+    const originalPaddingRight = originalStyle.paddingRight;
 
-    const updateBodyStyle = () => {
-      document.body.style.overflow = isLocked ? "hidden" : originalStyle;
+    const lockScroll = () => {
+      const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth;
+      document.body.style.overflow = "hidden";
+      document.body.style.paddingRight = `${scrollBarWidth}px`;
     };
 
-    updateBodyStyle();
+    const unlockScroll = () => {
+      document.body.style.overflow = originalOverflow;
+      document.body.style.paddingRight = originalPaddingRight;
+    };
+
+    if (isLocked) {
+      lockScroll();
+    } else {
+      unlockScroll();
+    }
 
     return () => {
-      document.body.style.overflow = originalStyle;
+      unlockScroll();
     };
   }, [isLocked]);
 
