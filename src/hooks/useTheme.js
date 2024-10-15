@@ -20,9 +20,11 @@ const useTheme = () => {
 
     const applyTheme = (theme) => {
       if (theme === "dark") {
+        root.style.colorScheme = "dark";
         root.classList.add("dark");
         root.classList.remove("light");
       } else {
+        root.style.colorScheme = "light";
         root.classList.add("light");
         root.classList.remove("dark");
       }

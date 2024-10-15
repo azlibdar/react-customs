@@ -24,7 +24,7 @@ const handleChangeTheme = (newTheme) => {
 
 The `useTheme` hook manages the current theme of your application and provides functionality to toggle between light and dark modes. It reads the theme preference from localStorage or detects the user's system preference on initial load.
 
-The hook also allows programmatic theme changes and automatically applies the selected theme to the document. The selected theme is stored in the localStorage for persistence across page reloads.
+The hook also allows programmatic theme changes and automatically applies the selected theme to the document. In addition to switching CSS classes, it uses the color-scheme property to ensure that browser-native UI components (e.g., scrollbars, form elements) also match the selected theme. The selected theme is stored in localStorage for persistence across page reloads.
 
 ### Return value
 
